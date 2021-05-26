@@ -38,4 +38,3 @@ spec:
           value: v1
       imagePullSecrets:
       - name: registry-bookinfo
-      
