@@ -8,7 +8,7 @@ metadata:
   namespace: student102-bookinfo-dev
 spec:
   rules:
-  - host: final.porplatakomm.com
+  - host: final.porplatakkom.com
     http:
       paths:
       - path: /student102/ratings(/|$)(.*)
