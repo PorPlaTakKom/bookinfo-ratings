@@ -1,11 +1,11 @@
 apiVersion: v1
 kind: Service
 metadata:
-  name: bookinfo-uat-ratings
-  namespace: student102-bookinfo-uat
+  name: bookinfo-dev-ratings
+  namespace: student102-bookinfo-dev
 spec:
   type: ClusterIP
   ports:
   - port: 8080
   selector:
-    app: bookinfo-uat-ratings
+    app: bookinfo-dev-ratings
